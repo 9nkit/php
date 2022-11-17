@@ -1,2 +1,2 @@
 #!/bin/bash
-git pull
+cd /var/www/test-pull && git pull
