@@ -1,7 +1,5 @@
 <?php
 
+echo shell_exec("cd /var/www/test-pull && git pull 2>&1");
 
-exec('/var/www/test-pull/git-pull.sh');
-echo 'Deployment done';
-
-?> 
+?>
