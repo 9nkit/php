@@ -1,8 +1,7 @@
 <?php
 
-chdir('/var/www/test-pull');
-$output = shell_exec('./git-pull.sh');
-echo $output;
+
+exec('/var/www/test-pull/git-pull.sh');
 echo 'Deployment done';
 
 ?> 
