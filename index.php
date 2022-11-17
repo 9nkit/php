@@ -1,4 +1,4 @@
 ;<?php
 ;phpinfo();
 
-Hi Ankit
+echo 'Hi Ankit';
